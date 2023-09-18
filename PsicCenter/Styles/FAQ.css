@@ -1,0 +1,137 @@
+
+h1 {
+font-weight:300;
+letter-spacing: 2px;
+font-size:48px;
+}
+p {
+letter-spacing: 1px;
+
+}
+img{
+    width: 70px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    transition: .5s ease;
+}
+
+.scrolling{
+    box-shadow: rgba(209, 209, 209, 0.35) 0px 4px 5px;
+}
+
+.voltar{
+    background-color: rgb(44, 136, 188);
+    text-decoration: none;
+    color: white;
+    padding: 7px 20px;
+}
+
+.search,.back{
+    display: flex;
+    align-items: center;
+}
+.search{
+    position: relative;
+}
+
+.pesquisar{
+    padding: 7px 0px;
+    transition: 1s ease;
+    max-width: 0px;
+    overflow: hidden;
+    position: absolute;
+    right: 55px;
+    visibility: hidden;
+}
+
+.pesquisaractive{
+    visibility: visible;
+    padding: 7px 10px;
+      max-width: 140px;
+}
+
+.searchlogo{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.searchlogo:hover{
+    opacity: 0.7;
+}
+
+.maincontent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titlefaqs h1{
+    font-weight: bold;
+    font-size: 40px;
+    user-select: none;
+}
+.questionsdiv{
+    justify-content: flex;
+    flex-direction: row;
+    width: 900px;
+    transition: 1.4s ease;
+}
+.questions{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+}
+.questandlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer{
+    padding-top: 20px;
+    padding-left: 60px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease;
+    padding-right: 50px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+.active{
+    padding-bottom: 20px;
+    max-height: 500px;
+    
+}
+.activecolor{
+    color:rgb(44, 136, 188);
+}
+
+.activedeg{
+    transform: rotate(180deg);
+}
+#titles{
+    transition: .3s ease;
+}
+#buttons{
+    transition: 1s ease;
+}
+
+.buttonchange{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}

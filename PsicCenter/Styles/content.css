@@ -1,0 +1,669 @@
+.ContentSection {
+    margin-top: 3.125rem;
+    z-index: 20;
+    position: relative; 
+}
+.aboutparent{
+    position: relative;
+    margin-top: -9.375rem;
+    z-index: 2;
+}
+
+.hm{
+    overflow: hidden;
+    height: 81.25rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    filter: blur(0.0625rem);
+    background-repeat: no-repeat;
+    transition: 1s ease;
+    gap: 6.25rem;;
+    background: url(https://cdn.discordapp.com/attachments/909946297862209576/1105240122376585307/a.jpg);
+
+    /* background-attachment: fixed; */
+}
+
+.hmon{
+    background-position: -37.5rem center;
+}
+
+.aboutus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 28%;
+}
+
+
+.aboutustext{
+    width: 43.75rem;
+    border-radius: 1.25rem;
+    padding: 1.25rem 3.125rem;
+}
+.aboutustext h1{
+    font-weight: bold;
+    color: white
+}
+.aboutustext p{
+    font-size: 1.25rem;
+    text-align: justify;
+    color: white
+}
+.intervalo *{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: -0.1875rem;
+}
+.intervalo span{
+    color: rgb(44, 136, 188);
+    transition: .5s ease;
+}
+
+.intervalo{
+    display: flex;
+    align-items: center;
+    width: 18.75rem;
+}
+
+.change{
+    opacity: 0;
+}
+
+
+.firstcontent {
+    position: relative;
+    z-index: 3;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+.introtext {
+    width: 53.125rem;
+    color: rgb(0, 56, 100);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contactmenow {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.1875rem 0.5rem;
+    width: 22.5rem;
+    border-radius: 1.25rem;
+}
+
+.talktous h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.6875rem;
+}
+
+.talktous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textinputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.textme {
+    width: 18.5625rem;
+    height: 3.5rem;
+    margin-top: 0.3125rem;
+    font-size: 1.125rem;
+    border: 0.125rem solid grey;
+}
+
+.textme::placeholder {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: black;
+}
+
+.checkboxparentdiv {
+    margin-top: 1.0625rem;
+}
+
+.checkboxdiv {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0rem;
+    padding-bottom: 0;
+}
+
+input[type="checkbox"] {
+    width: 3.125rem;
+    height: 1.25rem;
+}
+input[type="text"]{
+    padding-left: 20px;
+    font-size: 1.125rem;
+    color: black;
+}
+
+.checktext {
+    font-size: 0.8125rem;
+    color: black;
+}
+
+.checktext span {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.callme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2.5rem;
+}
+
+.callmenow {
+    width: 16.25rem;
+    height: 3.4375rem;
+    margin-top: 1.25rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border: none;
+    background-color: rgb(44, 136, 188);
+    color: white;
+    cursor: pointer;
+}
+
+.callmenow:hover {
+    opacity: 0.9;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.servicos h1 {
+    font-weight: bold;
+}
+
+.servicesimgandtext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7.5rem;
+    align-items: center;
+}
+
+.servicesimgandtext div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.servicesimgandtext div h1 {
+    font-size: 1.5625rem;
+}
+
+.consultatype {
+    transition: 0.3s;
+}
+
+
+.nowmore {
+    position: absolute;
+    top: 8.75rem;
+    color: white;
+    transition: 0.3s;
+    font-size: 1.125rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.areasdeintervecao {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 43.75rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 20;
+}
+
+.titleareas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.titleareas h1{
+    color: black;
+    font-weight: bold;
+}
+
+
+.areasdeintervecaoboxes {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    transition: 5s;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: 0;
+}
+.areasdeintervecaoboxes::-webkit-scrollbar{
+    display: none;
+}
+
+.areasparentdiv {
+    border-radius: 1.25rem;
+    min-width: 25rem;
+    max-width: 28.125rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.1875rem 0.5rem;
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    height: 26.25rem;
+    margin-right: 2.5rem;
+    background-color: white;
+    scroll-snap-align: start;
+}
+
+.textdiv {
+    padding-left: 0.875rem;
+}
+
+
+.textdivtitle h1 {
+    white-space: pre-wrap;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.infoabtareas {
+    padding-right: 1.25rem;
+    text-align: justify ;
+    max-height: 5.625rem;
+    color: #6e777e;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.areasdeintervecaoboxes.scrolling .areasparentdiv,
+.areasdeintervecaoboxes.scrolling .infoabtareas {
+    cursor: grab;
+    user-select: none;
+}
+.scrolling{
+    scroll-behavior: auto;
+}
+.nowmorediv{
+    margin-top: 1.25rem;
+}
+
+.nowmorediv a {
+   
+    color: rgb(44, 136, 188);
+    font-weight: bold;
+}
+
+.ourteam{
+    margin-top: -7.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.member,.members2{
+    flex-wrap: wrap;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.member{
+    opacity: 0;
+    transition: 1s ease;
+    transform: translateX(-50%);
+}
+.members2{
+    opacity: 0;
+    transition: 1s ease;
+    transform: translateX(50%);
+}
+
+
+.members{
+    padding-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.members2{
+    flex-direction: column-reverse;
+}
+
+
+.memberinfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.memberinfo p,.memberinfo h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+.memberinfo h1{
+    margin-top: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+.memberinfo, .member img,.members2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 19.875rem;
+}
+
+.downset{
+    top: 0;
+    right: 50%;
+    position: absolute;
+    font-size: 1.25rem;
+    font-weight: bold;
+    transform: rotate(90deg);
+    opacity: 0.2;
+}
+.topset{
+    right: 50%;
+    bottom: 0;
+    position: absolute;
+    font-size: 1.25rem;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    opacity: 0.2;
+}
+
+
+.price{
+    position: relative;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6.25rem;
+}
+
+
+
+.ofertas{
+    width: 43.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ofertastitle{
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: 1s ease;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    width: 21.875rem;
+    height: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.prices div{
+    width: 100%;
+    border-radius: 1.25rem;
+    height: 9.375rem;
+   box-shadow: 0.3125rem 0.3125rem 1.25rem 0 rgba(0,0,0,0.15);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prices div h2{
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.prices div h1{
+    color: rgb(44, 136, 188);
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prices div p{
+    margin: 0;
+    padding: 0;
+    padding-right: 0.625rem;
+    padding-left: 0.625rem;
+    text-align: center;
+}
+
+
+
+.hiddenapp{
+    opacity: 0;
+    filter: blur(0.625rem);
+    transform: translateX(-50%);
+    transition: all 1s ease;
+}
+.listadasofertas{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-bottom: 1.25rem;
+}
+
+.listadasofertas img{
+    height: 5rem;
+    object-fit: cover;
+    margin-right: 1.25rem;
+}
+
+.listadasofertas p strong{
+    margin-right: 0.625rem;
+}
+
+.listadasofertas p{
+    margin: 0;
+    padding: 0;
+}
+
+.listas{
+    transition: 1s ease;
+    opacity: 0;
+    transform: translateY(50%);
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.kandengue{
+    width: 100px;
+    height: 80px;
+    border: 0.125rem solid rgb(44, 136, 188);
+    border-radius: 3.125rem;
+    overflow: hidden;
+    margin-right: 1.25rem;
+}
+.kamba{
+    width: 100px;
+    height: 80px;
+    border-radius: 3.125rem;
+    overflow: hidden;
+    margin-right: 1.25rem;
+    margin: 0;
+}
+
+
+.hiddenright{
+    opacity: 0;
+    transition: 2s ease;
+}
+
+.xx{
+    transition: 1s ease;
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.normal{
+    transition-delay: 300ms;
+}
+.desempregados{
+    transition-delay: 600ms;
+}
+
+.supervisaoindividual{
+    transition-delay: 900ms;
+}
+.supervisaoemgrupo{
+    transition-delay: 1200ms;
+}
+
+.workshop{
+    transform: translateY(20%);
+    transition-delay: 1500ms;
+}
+
+.ourteamtitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: 1s ease;
+    margin-bottom: 6.25rem;
+}
+.ourteamtitle h1{
+    font-weight: bold;
+}
+
+.ourteamtitle::after{
+    content: '';
+    width: 3.75rem;
+    height: 0.1875rem;
+    background-color: rgb(44, 136, 188);
+}
+
+.ourteamtitle h1 span{
+    color: rgb(44, 136, 188);
+}
+.nossaequipa{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: rgb(44, 136, 188);
+    margin-bottom: -1.25rem;
+}
+
+.ourteammembers{
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.number0{
+    transform: translateX(-50%);
+    transition-delay: 2000ms;
+}
+
+.number2{
+    transform: translateX(-50%);
+    transition-delay: 800ms;
+}
+
+.number4{
+    transform: translateX(50%);
+    transition-delay: 800ms;
+}
+
+.number6{
+    transform: translateX(50%);
+    transition-delay: 1400ms;
+}
+
+.number1{
+    transform: translateX(-50%);
+    transition-delay: 1500ms;
+}
+
+.number3{
+    transform: translateY(20%);
+    transition-delay: 0ms;
+}
+
+.number5{
+    transform: translateX(50%);
+    transition-delay: 1500ms;
+}
+
+.showapp.mousing{
+    opacity: 0.3;
+    transition-delay: 0ms;
+}
+
+
+.showapp{
+    opacity: 1;
+    transform: translateX(0%);
+    filter: blur(0);
+}
+
+.backto{
+    transition-delay: 100ms;
+}
+

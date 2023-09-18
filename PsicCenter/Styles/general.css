@@ -1,0 +1,1191 @@
+body {
+  margin:0;
+  }
+  html {
+      scroll-behavior: smooth;
+    }
+    
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+  h1 {
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+  }
+  p {
+  letter-spacing: 1px;
+  }
+  .talktous h1{
+    text-align: center;
+  }
+
+  @media (max-width:1280px) {
+    .inner-header{
+      height: 350px;
+    }
+    .header{
+      height: 492;
+    }
+    .family{
+        height: 489px;
+    }
+    .piccenterlogo{
+      width: 800px;
+    }
+
+    .firstcontent{
+      padding-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .cons{
+      margin-right: 5.5rem;
+    }
+
+    .hm{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      height: 58rem;
+    }
+    .hmon{
+      background-position: -900px -120px;
+    }
+
+    .aboutus{
+      top:17%
+    }
+    
+    .schedule {
+      width: 400px;
+      width: 400px;
+    }
+    .navegate{
+      font-size: 18px;
+    }
+    
+  .ourteamtitle{
+    margin-bottom: 5rem;
+  } 
+    .member,.members2{
+      flex-wrap: wrap;
+      width: 178px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .memberinfo, .member img,.members2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 19.875rem;
+  }
+  .members2{
+    flex-direction: column-reverse;
+  }
+  .memberinfo h1{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .memberinfo p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.downset{
+  transform: translateY(-120%) rotate(90deg)  ;
+
+}
+}
+
+@media only screen 
+and (max-width : 428px)
+{
+  body{
+    overflow-x: hidden;
+  }
+  .theheader,.topset,.downset{
+    display: none;
+  }
+  .faqheader{
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+  .fqblog{
+    padding: 0;
+  }
+  .mainheader{
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .mainheader div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    padding-left: 5px;
+
+  }
+  .mobilelogo{
+    margin-top: 2%;
+    height: 55px;
+  }
+  .mainheader div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: end;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  .firstmenu{
+      transition: 1s ease;
+      border-radius: 20px;
+      width: 27px;
+      height: 4px;
+      margin-right: 20px;
+  }
+
+  .middle{
+    width: 18px;
+  }
+  .mainheaderul{
+    height: 100%;
+    width: 100%;
+    display: none;
+    gap:13px;
+    flex-direction: column;
+    padding-bottom: 20vmax;
+  }
+  .navegate{
+    font-size: 20px;
+  }
+  .mainheaderoff{
+    height: 100vmax;
+  }
+  .mainheaderuloff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstbar{
+    transform: rotate(45deg);
+  }
+  .middlebar{
+    display: none;
+    transition-delay: 1000ms;
+  }
+  .thirdbar{
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  .familypicdiv{
+    display: flex;
+    align-items: start;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .family{
+    position: relative;
+    top:auto;
+    right: auto;
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+    clip-path: polygon(100% 0, 100% 57%, 51% 100%, 0 100%, 0 0);
+  }
+  .aslogo{
+    position: absolute;
+    right: -4%;
+    bottom: 0;
+    z-index: 2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .aslogo h1{
+    font-size: 32px;
+    width: 120px;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: -0.1875rem;
+  }
+  .aslogo span{
+      color: rgb(44, 136, 188);
+      transition: .5s ease;
+  }
+
+  .intervalo{
+    display: none;
+  }
+  .scrolldown{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .piccenterlogo{
+    transform: translate(-40%, 50%);
+    width: 250px;
+    padding: 0;
+  }
+  .header{
+   display: none;
+  }
+  .ContentSection {
+    margin: 0;
+  }
+  .firstcontent{
+    padding: 0;
+  }
+  .servicesimgandtext{
+    gap: 2rem;
+  }
+  .servicesimgandtext div h1{
+    font-size: 18px;
+  }
+  .servicos h1{
+    font-size: 1.5rem;
+  }
+  .consulta{
+    width: 150px;
+    height: 150px;
+  }
+  .nowmore{
+    display: none;
+  }
+  
+  .price{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    gap:0;
+    overflow-x: hidden;
+  }
+  .cons{
+    margin: 0;
+  }
+  .contactmenow{
+    box-shadow: none;
+    padding-bottom: 100px;
+  }
+  .contactme{
+    width: 75%;
+  }
+  .contactmenow{
+    width: 100%;
+  }
+  .talktous h1{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  .textme{
+    width: 76%;
+    height: 35px;
+    border: 1px solid black;
+    }
+  .textme::placeholder {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+  }
+  .checktext{
+    font-size: 12px;
+  }
+  .callme{
+    display: flex;
+    padding-bottom: 10%;
+  }
+  .callmenow{
+    width: 40%;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+
+  .hm{
+    height: 800px;
+    background-position: 2300px center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 1500px;
+    filter: blur(5px);
+    margin-bottom: 200px;
+  }
+  .aboutus{
+    top:5%;
+    flex-wrap: wrap;
+  }
+  .aboutustext h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .aboutustext p{
+    font-size: 15px;
+    text-align: center;
+    color: white
+  }
+
+  .ourteamtitle h1{
+    text-align: center;
+  }
+  .nossaequipatitulo{
+    font-size: 30px;
+  }
+
+    .member,.members2{
+      flex-wrap: wrap;
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+  }
+   .member img, .members2 img {
+    height: 200px;
+  }
+  .members{
+    padding: 0;
+  }
+  .members2{
+    flex-direction: column;
+  }
+  .memberinfo{
+    height: auto;
+    margin-bottom: 60px;
+  }
+  .titleareas h1{
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .price{
+    height:900px;
+    padding: 0;
+  }
+  .ofertastitle{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .schedule,.ourclinic,.socials{
+    width: 80%;
+    height: auto;
+  }
+  .schedule h1,.ourclinic h1,.socials h1{
+    font-size: 20px;
+  }
+  .schedule p,.ourclinic p,.socials p{
+    font-size: 14px;
+  }
+  footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 15px;
+  }
+  .credits p{
+    text-align: center;
+  }
+  .credits{
+    margin-top: 37px;
+  }
+  .titlefaqs h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .questionsdiv{
+    width: 390px;
+  }
+  .questandlogo img,.buttonchange img{
+    width: 50px;
+  }
+  .first{
+    width: 170px;
+  }
+  
+
+  main::after,main::before{
+    width: 10px;
+    height: 150px;
+  }
+  .design h1{
+    text-align: center;
+    font-size: 20px;
+  }
+  .textcontent{
+    flex-direction: column;
+    width: 83%;
+    height: 20%;
+    padding-bottom: 20px;
+  }
+  .textcontent img{
+    width: 100%;
+    height:40%;
+  }
+  .thetext {
+    padding-left: 20px;
+    width: 100%;
+  }
+  .thetext h1{
+    font-size: 28px;
+    width: 80%;
+  }
+  .thetext p{
+    width: 90%;
+    text-align: left;
+  }
+  .preshow{
+    height: 160px;
+  }
+
+  .mainone{
+    height: 200px;
+  }
+  .mainone h1{
+    font-size: 26px;
+  }
+  .Texts{
+    margin-top: 50px;
+    width: 80%;
+  }
+  .Texts ul{
+    margin-left: 10px;
+  }
+  .areasdeintervecao{
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .areasparentdiv{
+    margin-right: 10%;
+    min-width:300px;
+    height: 24rem;
+  }
+  .areasdeintervecaoboxes{
+    margin-left: 7%;
+  }
+  .left{
+    display: none;
+  }
+  .textdivtitle h1{
+    font-weight: 300;
+    margin: 0;
+    font-size: 14px;
+  } 
+  .infoabtareas{
+    max-height: 5.5rem;
+    font-size: 12px;
+    text-align: left;
+  }
+  .nowmorediv{
+    margin: 2px;
+  }
+  .nowmorediv a{
+    font-size: 12px;
+  }
+  .ofertas{
+    width: 100%;
+    margin-bottom: 0px;
+    align-items: center;
+  }
+  .listas{
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 4%;
+  }
+  .listadasofertas {
+    padding: 0;
+    margin: 0;
+    opacity: 0.3;
+  }
+  .listadasofertas p{
+    width: 100%;
+    display: none;
+  }
+  .listadasofertas img{
+    padding: 0;
+  }
+  .kandengue,.kamba{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+  }
+  .kamba img{
+    transform: translateY(6px);
+  }
+  .mobileshow{
+    margin-top: 20px;
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+    transition: .5s ease;
+  }
+  .price{
+    height: auto;
+  }
+  .prices{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+  }
+
+  .prices div{
+    box-shadow: none;
+    width: 100%;
+  }
+  .desempregados h2{
+    width: 75%;
+  }
+  .normal{
+    margin-top: 0;
+  }
+
+  .ofertastitle{
+    font-size: 1.8rem;
+  }
+  
+}
+
+@media only screen and (min-width : 500px) and (max-width : 927px) and (orientation : landscape){
+  h1{
+    font-size: 2rem;
+  }
+  .topset,.downset{
+    display: none;
+  }
+  .mainheader{
+    height: 65px;
+  }
+  .navegate{
+    font-size: 15px;
+    margin-right: 25px;
+  }
+  .inner-header{
+    height: 200px;
+  }
+  .header{
+  height: 295px;
+  transition: 1s ease;
+}
+  .family{
+    top:100px;
+    width: 45vw;
+    height: 295px;
+  }
+  .piccenterlogo{
+    width: 70%;
+    transform: translate(-19%,20%);
+    padding: 0;
+  }
+  .waves{
+    height: 10px;
+    overflow: hidden;
+  }
+  .parallax > use{
+    height: 20px;
+  }
+  /* .header-adress{
+    width: 100%;
+  } */
+  .theheader
+  {width: 100%;
+  }
+  .location p {
+    width: auto;
+  }
+  .header-adress{
+    justify-content: center;
+  }
+  .socialmedia{display: none;}
+  .firstcontent{
+    padding-top: 0;
+    gap: 50px;
+  }
+  .servicos h1{
+    font-size: 2.2rem;
+  }
+  .cons{
+    margin-right: 0;
+  }
+  .consulta{
+    min-height: 170px;
+    max-height: 200px;
+    min-width: 170px;
+    max-width: 200px;
+  }
+  .servicesimgandtext{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+  .servicesimgandtext div{
+    justify-content: start;
+    width: 35%;
+    height: 100%;
+  }
+  .servicos{
+    width: 100%;
+    height: 350px;
+  }
+  .servicesimgandtext div h1 {
+    font-size: 1.2rem;
+  }
+ 
+  .contactmenow{
+    box-shadow: none;
+  }
+  .contactme{
+    width: 40%;
+  }
+  .contactmenow{
+    width: 100%;
+  }
+  .talktous h1{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  .textme{
+    width: 100%;
+    height: 35px;
+    border: 1px solid black;
+    }
+  .textme::placeholder {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+  }
+  .checktext{
+    font-size: 10px;
+  }
+  .callme{
+    display: flex;
+    padding-bottom: 10%;
+  }
+  .callmenow{
+    width: 40%;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .hm{
+    width: 100%;
+    height: 700px;
+    background-position: 90px center;
+    background-size: 1300px;
+  }
+  .aboutus{
+    top: 15%;
+    overflow: hidden;
+    height: auto;
+    margin-right: 120px;
+  }
+  .hmon{
+    background-position: -200px center;
+  }
+  .intervalo{
+    width: 100px;
+  }
+  .aboutustext{
+    width: 55%;
+  }
+  .aboutustext h1{
+    font-size: 2rem;
+  }
+  .aboutustext p{
+    font-size: 12px;
+  }
+  .members{
+    flex-direction: row;
+    gap:15px;
+  }
+   .member img, .members2 img{
+    width: 20%;
+    height: auto;
+   } 
+   .member,.members2{
+    flex-wrap: wrap;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0.3125rem 0.3125rem 1.25rem 0 rgba(0,0,0,0.15);
+    overflow: hidden;
+  }
+   .members2{
+    flex-direction: row;
+   }
+   .memberinfo{
+    width: 80%;
+    height: auto;
+   }
+   .ourteamtitle{
+    margin-bottom: 2rem;
+   }
+   .areasdeintervecao{
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .areaimg{
+    height: 140px;
+  }
+  .areasparentdiv{
+    margin-right: 5%;
+    min-width:300px;
+    height: 18rem;
+  }
+  .areasdeintervecaoboxes{
+    margin-left: 7%;
+  }
+  .textdivtitle h1{
+    font-weight: 300;
+    margin: 0;
+    font-size: 13px;
+  } 
+  .infoabtareas{
+    max-height: 70px;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .nowmorediv{
+    margin: 2px;
+  }
+  .nowmorediv a{
+    font-size: 12px;
+  }
+  .price{
+    height: auto;
+    gap: 0;
+  }
+  .ofertastitle{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .ofertas{
+    width: 100%;
+    margin-bottom: 0;
+    align-items: center;
+  }
+  .listas{
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+    flex-direction: row;
+  }
+  .listadasofertas {
+    padding: 0;
+    margin: 0;
+    opacity: 0.3;
+  }
+  .listadasofertas p{
+    width: 100%;
+    display: none;
+  }
+  .listadasofertas img{
+    padding: 0;
+  }
+  .kandengue,.kamba{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+  }
+  .kamba img{
+    transform: translateY(6px);
+  }
+  .mobileshow{
+    margin-top: 20px;
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+    transition: .5s ease;
+  }
+  .prices{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    gap: 0;
+  }
+
+  .prices div{
+    box-shadow: none;
+    width: 100%;
+    margin-top: 0;
+    height: 120px;
+  }
+  .desempregados h2{
+    width: 75%;
+  }
+  .normal{
+    margin-top: 0;
+  }
+
+  .ofertastitle{
+    font-size: 1.8rem;
+  } 
+  .schedule,.ourclinic,.socials{
+    width: 80%;
+    height: auto;
+  }
+  .schedule h1,.ourclinic h1,.socials h1{
+    font-size: 20px;
+  }
+  .schedule p,.ourclinic p,.socials p{
+    font-size: 14px;
+  }
+  footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 15px;
+  }
+  .credits p{
+    text-align: center;
+  }
+  .credits{
+    margin-top: 37px;
+  }
+  .titlefaqs h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .questionsdiv{
+    width: 80%;
+  }
+  .questandlogo img,.buttonchange img{
+    width: 50px;
+  }
+  .first{
+    width: 170px;
+  }
+  
+
+  main::after,main::before{
+    width: 7px;
+    height: 100px;
+  }
+  .design h1{
+    text-align: center;
+    font-size: 20px;
+  }
+  .textcontent{
+    flex-direction: row;
+    width: 83%;
+    height: 200px;
+  }
+  .textcontent img{
+    width: 30%;
+    height:100%;
+  }
+  .thetext {
+    padding-left: 20px;
+    width: 70%;
+    padding-bottom: 30px;
+    padding-right: 20px;
+  }
+  .thetext h1{
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+  }
+  .thetext p{
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+  }
+  .preshow{
+    height: 70px;
+  }
+
+  .mainone{
+    height: 200px;
+  }
+  .mainone h1{
+    font-size: 26px;
+  }
+  .Texts{
+    margin-top: 50px;
+    width: 70%;
+  }
+  .Texts ul{
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .Texts p{
+    font-size: 14px;
+  }
+  
+  .faqheader{
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .fqblog{
+    padding: 0;
+  }
+  .areason{
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (min-width : 767px) and (max-width : 1000px) and (orientation : portrait){
+
+  .mobileshow{
+    display: none;
+  }
+  h1{
+    font-size: 2.3rem;
+  }
+.header{
+  height: 500px;
+}
+.family{
+    height: 499px;
+    width: 45%;
+    top: 100px;
+  }
+.inner-header{
+  margin-bottom: 20px;
+}
+.piccenterlogo{
+  width: 76%;
+  padding: 0;
+  transform: translate(-15%,30%);
+}
+.theheader
+  {width: 100%;
+  }
+  .location {
+    padding-left: 20%;
+  }
+  .header-adress{
+    justify-content: center;
+  }
+  .socialmedia{display: none;}
+  .mainheader{
+    height: 4rem;
+  }
+  .navegate{
+    font-size: 15px;
+    margin-right: 25px;
+  }
+  .cons{
+    margin-right: 0;
+  }
+  .servicos{
+    width: 100%;
+  }
+  .servicesimgandtext{
+    width: 100%;
+  }
+  .consulta{
+    height: 260px;
+    width: 260px;
+  }
+  .hm{
+    width: 100%;
+    height: 900px;
+    background-position: 90px center;
+    background-size: 1600px;
+  }
+  .aboutus{
+    top: 13%;
+    overflow: hidden;
+    height: auto;
+    margin-right: 120px;
+  }
+  .aboutustext p{
+    font-size: 18px;
+  }
+  .hmon{
+    background-position: -350px center;
+  }
+  .intervalo{
+    width: 100px;
+  }
+  .aboutustext{
+    width: 55%;
+  }
+  .areasdeintervecao{
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .areaimg{
+    height: 180px;
+  }
+  .areasparentdiv{
+    margin-right: 5%;
+    min-width:350px;
+    height: 25rem;
+  }
+  .areasdeintervecaoboxes{
+    margin-left: 7%;
+  }
+  .price{
+    height: auto;
+    gap: 50px;
+  }
+  .prices{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .prices div{
+    width: 40%;
+  }
+  .ofertastitle{
+    text-align: center;
+  }
+  .schedule,.ourclinic,.socials{
+    width: 80%;
+    height: auto;
+  }
+  .schedule h1,.ourclinic h1,.socials h1{
+    font-size: 20px;
+  }
+  .schedule p,.ourclinic p,.socials p{
+    font-size: 14px;
+  }
+  footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 15px;
+  }
+  .credits p{
+    text-align: center;
+  }
+  .credits{
+    margin-top: 37px;
+  }
+  .titlefaqs h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .questionsdiv{
+    width: 80%;
+  }
+  .questandlogo img,.buttonchange img{
+    width: 50px;
+  }
+  .first{
+    width: 170px;
+  }
+  
+
+  main::after,main::before{
+    width: 7px;
+    height: 100px;
+  }
+  .design h1{
+    text-align: center;
+    font-size: 20px;
+  }
+  .textcontent{
+    flex-direction: row;
+    width: 83%;
+    height: 200px;
+  }
+  .textcontent img{
+    width: 30%;
+    height:100%;
+  }
+  .thetext {
+    padding-left: 20px;
+    width: 70%;
+    padding-bottom: 30px;
+    padding-right: 20px;
+  }
+  .thetext h1{
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+  }
+  .thetext p{
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+  }
+  .preshow{
+    height: 70px;
+  }
+
+  .mainone{
+    height: 200px;
+  }
+  .mainone h1{
+    font-size: 26px;
+  }
+  .Texts{
+    margin-top: 50px;
+    width: 70%;
+  }
+  .Texts ul{
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .Texts p{
+    font-size: 14px;
+  }
+  
+  .faqheader{
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .fqblog{
+    padding: 0;
+  }
+  .areason{
+    margin-top: 0px;
+  }
+
+
+
+
+}
+@media (min-width:430px) {
+  .mobilelogo,.scrolldown,.firstmenu,.aslogo{
+    display: none;
+  }
+}
+
+@media (min-width:927px) {
+  .mobileshow{
+    display: none;
+  }
+}
+
+.loader{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+  background: white url(../Pictures/load-35_256.gif) no-repeat center center;
+  background-size: 10%;
+}
+body{
+  overflow-y: hidden;
+}

@@ -1,0 +1,180 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+.header {
+position:relative;
+text-align:center;
+background: linear-gradient(60deg, rgb(58, 98, 183) 0%, rgba(0,172,193,1) 100%);
+color:white;
+clip-path: polygon(0 0, 56% 0, 100% 100%, 0% 100%);
+user-select: none;
+}
+.logo {
+width:3.125rem;
+fill:white;
+padding-right:0.9375rem;
+display:inline-block;
+vertical-align: middle;
+}
+.inner-header {
+height:300px;
+width:100%;
+margin: 0;
+padding: 0;
+}
+.flex { /*Flexbox for containers*/
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.waves {
+position:relative;
+width: 100%;
+height:140px;
+margin-bottom:-0.4375rem; /*Fix for safari gap*/
+min-height:6.25rem;
+max-height:9.375rem;
+}
+/* Animation */
+.parallax > use {
+animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+.parallax > use:nth-child(1) {
+animation-delay: -2s;
+animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+animation-delay: -3s;
+animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+animation-delay: -4s;
+animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+animation-delay: -5s;
+animation-duration: 20s;
+}
+@keyframes move-forever {
+0% {
+transform: translate3d(-5.625rem,0,0);
+}
+100% {
+transform: translate3d(5.3125rem,0,0);
+}
+}
+/*Shrinking for mobile*/
+
+header{
+    height: 2.5rem;
+}
+.header-adress{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location img{
+    padding-right: 0.625rem;
+}
+.location p{
+    width: 21.875rem;
+    font-size: 0.6875rem;
+    text-align: left;
+    color: rgb(0,56,100);
+}
+.emailbox{
+   height: 1.5625rem; 
+}
+
+.socialmedia{
+    display: flex;
+    width: 6.25rem;
+    justify-content: space-between;
+}
+
+.instagram,.facebook,.whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.whatsapp{
+    position: relative;
+}
+.logo{
+    width: 1.25rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.facebookk{
+    width: 1.875rem;
+}
+.logo:hover{
+    opacity: 0.7;
+}
+.whatsappp{
+    z-index: 20;
+}
+.nothing{
+    background-color: rgb(0,56,100);
+    width: 0rem;
+    height: 1.25rem;
+    position: absolute;
+    left: 0.0625rem;
+    border-radius: 1.25rem;
+    transition: 0.3s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.25rem;
+    font-size: 0.75rem;
+    color: white;
+}
+.whatsappp:hover + .nothing,.nothing:hover {
+width: 6.25rem;
+}
+.mainheader{
+    background-color: white;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.25rem 0.3125rem;
+    z-index: 100;
+}
+.mainheaderul{
+    display: flex
+}
+.navegate{
+    text-decoration: none;
+    color: rgb(0,56,100);
+    font-size: 1.25rem;
+    margin-right: 3.125rem;
+    font-weight: bold;  
+    cursor: pointer;
+}   
+.navegate:hover{
+    opacity: 0.6;
+}
+
+
+
+.mainheader ul li{
+    list-style: none;
+}
+

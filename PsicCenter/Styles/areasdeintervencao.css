@@ -1,0 +1,313 @@
+
+h1 {
+font-weight:300;
+letter-spacing: 0.125rem;
+font-size:3rem;
+}
+p {
+letter-spacing: 0.0625rem;
+
+}
+img{
+    width: 4.375rem;
+}
+
+.fqblog{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.25rem ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    transition: .5s ease;
+    z-index: 20;
+    padding: 0.625rem 9.375rem;
+    box-shadow: rgba(209, 209, 209, 0.35) 0rem 0.25rem 0.3125rem;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first{
+    width: 15rem;
+}
+
+.scrolling{
+    box-shadow: rgba(209, 209, 209, 0.35) 0rem 0.25rem 0.3125rem;
+}
+
+.voltar{
+    background-color: rgb(44, 136, 188);
+    text-decoration: none;
+    color: white;
+    padding: 0.4375rem 1.25rem;
+}
+
+.search,.back{
+    display: flex;
+    align-items: center;
+}
+.search{
+    position: relative;
+}
+
+.pesquisar{
+    padding: 0.4375rem 0rem;
+    transition: 1s ease;
+    max-width: 0rem;
+    overflow: hidden;
+    position: absolute;
+    right: 3.4375rem;
+    visibility: hidden;
+}
+
+.pesquisaractive{
+    visibility: visible;
+    padding: 0.4375rem 0.625rem;
+      max-width: 8.75rem;
+}
+
+.searchlogo{
+    height: 3.75rem;
+    width: 3.75rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+.searchlogo:hover{
+    opacity: 0.7;
+}
+
+main{
+    margin-top: 11.25rem;
+    position: relative;
+}
+
+main::after{
+    content: '';
+    width: 35px;
+    height: 250px;
+    background-color: rgb(44, 136, 188);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 19;
+}
+
+main::before{
+    content: '';
+    width: 35px;
+    height: 250px;
+    background-color: rgb(44, 136, 188);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 19;
+}
+
+.leftway{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 136, 188);
+    font-size: 1.25rem;
+    color: white;
+    width: 3.125rem;
+}
+
+.design{
+    width: 80%;
+    background-color: rgb(44, 136, 188);
+    height: 12.5rem;
+    border-bottom-right-radius: 6.25rem;
+    border-top-right-radius: 6.25rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+
+}
+
+.design h1{
+    color: white;
+    font-size: 1.5625rem;  
+    max-width: 23.75rem;  
+}
+.design::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    background: url(https://templatemo.com/templates/templatemo_586_scholar/assets/images/contact-dec-01.png);
+    width: 19.875rem;
+    height: 7.4375rem;
+    left: 10%;    
+}
+
+.textcontentgrandfather{
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.textcontent{
+    margin-top: 1.875rem;
+    display: flex;
+    width: 71.125rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.0625rem 0.625rem -0.0625rem;
+    height: 17.5rem;
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.textcontent img{
+    width: 28.875rem;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.thetext{
+    height: 100%;
+    width: 39.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2.5rem;
+    position: relative;
+}
+
+.thetext h1{
+    color: rgb(84, 89, 95);
+    line-height: 2.625rem;
+    font-size: 1.75rem;
+    margin-bottom: 0.9375rem;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-style:solid;
+    text-decoration-color:rgb(84, 89, 95) ;
+    cursor: pointer;
+}
+
+.thetext h1:hover{
+    color: rgb(44, 136, 188);
+}
+.thetext p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(70, 70, 70);
+    line-height: 1.5rem;
+    text-align: justify;
+    height: 100%;
+    
+}
+
+.preshow{
+    height:3.8rem;
+    overflow: hidden;
+}
+
+.ret{
+    text-decoration: none;
+    font-size: 2.5rem;
+    text-decoration-style:solid;
+    text-decoration-style:solid;
+    color: rgb(44, 136, 188);
+    position: absolute;
+    bottom: 3.125rem;
+}
+
+
+.mainone{
+    margin-top: 6.25rem;
+    height: 22.5rem;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.areatitle{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.8125rem;
+    line-height: 3.125rem;
+    color: #FFFFFF;
+    width: 50rem;
+}
+
+.mainone::before{
+    content: '';
+    background-color: #2b76a2;
+    opacity: 0.65;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.Texts{
+    margin-top: 11.25rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Texts p, .Texts ul{
+    text-align: left;
+    margin-bottom: 1.125rem;
+    margin-block-end: 1.125rem;
+    line-height: 1.9125rem;
+    font-size: 1.125rem;
+    color: rgb(84, 89, 95);
+}
+
+.Texts ul{
+    margin-left: 3.75rem;
+}
+
+.Texts h1{
+    color: rgb(44, 136, 188);
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+.areason{
+    display: none;
+    transform: scale(0);
+    margin-top: 6.25rem;
+    position: relative;
+    z-index: 18;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s ease;
+}
+.boxactive{
+    display: flex;
+    transform: scale(1);
+}
+
+.boxinactive{
+    display: none;
+}
