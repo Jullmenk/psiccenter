@@ -20,10 +20,9 @@ let i = 0;
 const intervalo = document.getElementById('intervalo')
 const intervalos = document.getElementById('intervalos')
 const loading = document.querySelector('.loader')
-loading.style.display='block'
+
 window.addEventListener('load',()=>{
   loading.style.display='none'
-  document.body.style.overflow='inherit';
 })
 setInterval(()=>{
     i>=inter.length-1?i=0:i++

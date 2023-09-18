@@ -1181,11 +1181,8 @@ and (max-width : 428px)
 .loader{
   height: 100vh;
   width: 100%;
-  position: relative;
+  position: fixed;
   z-index: 1000;
-  background: white url(../Pictures/load-35_256.gif) no-repeat center center;
+  background: white url(/Pictures/load-35_256.gif) no-repeat center center;
   background-size: 10%;
-}
-body{
-  overflow-y: hidden;
 }

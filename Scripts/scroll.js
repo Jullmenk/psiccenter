@@ -127,7 +127,7 @@ box.forEach(elem=>{
                 ${elem.text}
             </div>
             <div class="nowmorediv">
-                <a href="../Html/areasintervencao.html">Saiba mais</a>
+                <a href="/areasintervencao.html">Saiba mais</a>
             </div>
         </div>
         `   
